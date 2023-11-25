@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push glejnhithi/jenkins-docker-hub'
+        sh 'docker push shpetimbajrami/jenkins-docker-hub'
       }
     }
   }
